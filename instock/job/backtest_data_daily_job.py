@@ -49,7 +49,7 @@ def process(table, data_all, date, backtest_column):
 
     column_tail = tuple(table['columns'])[-1]
     now_date = datetime.datetime.now().date()
-    sql = f"SELECT * FROM `{table_name}` WHERE `date` < '{now_date}' AND `{column_tail}` is NULL"
+    sql = f"SELECT * FROM \"{table_name}\" WHERE \"date\" < '{now_date}' AND \"{column_tail}\" is NULL"
     try:
         data = pd.read_sql(sql=sql, con=mdb.engine())
         if data is None or len(data.index) == 0:

@@ -1,0 +1,29 @@
+version: '3'
+services:
+  stock-web:
+    build:
+      context: .
+      dockerfile: deployment/Dockerfile
+    image: stock-web
+    container_name: stock-web
+    # Use host networking heavily simplifies DB access to localhost
+    # but be aware of port conflicts. 9988 must be free.
+    network_mode: "host"
+    environment:
+      - db_host=127.0.0.1
+      - db_user=postgres
+      # Password special chars might need care, but env var passing usually safe
+      - db_password=xjchilli123!
+      - db_database=tdx_stock
+      - db_port=5432
+      - TZ=Asia/Shanghai
+    restart: always
+    volumes:
+      - ./log:/app/instock/log
+    # If network_mode: host fails or is not desired, use:
+    # ports:
+    #   - "9988:9988"
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"
+    # environment:
+    #   - db_host=host.docker.internal

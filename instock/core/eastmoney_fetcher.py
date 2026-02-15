@@ -69,18 +69,18 @@ class eastmoney_fetcher:
         session.mount("http://", adapter)
         session.mount("https://", adapter)
 
-        # 设置请求头
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Referer': 'https://quote.eastmoney.com/',
-            'Accept': '*/*',
-            'Accept-Language': 'zh-CN,zh;q=0.9',
-            'Accept-Encoding': 'gzip, deflate, br, zstd',
-            'Connection': 'keep-alive',
+            # 'Referer': 'https://quote.eastmoney.com/',
+            # 'Accept': '*/*',
+            # 'Accept-Language': 'zh-CN,zh;q=0.9',
+            # 'Accept-Encoding': 'gzip, deflate, br',
+            # 'Connection': 'keep-alive',
+            # 'Cookie': self._get_cookie()
         }
         session.headers.update(headers)
         # 设置Cookie
-        session.cookies.update({'Cookie': self._get_cookie()})
+        # session.cookies.update({'Cookie': self._get_cookie()})
         return session
 
     def make_request(self, url, params=None, retry=3, timeout=10):

@@ -5,7 +5,7 @@
 import json
 from abc import ABC
 from tornado import gen
-# import logging
+import logging
 import datetime
 import instock.lib.trade_time as trd
 import instock.core.singleton_stock_web_module_data as sswmd
@@ -55,7 +55,7 @@ class GetStockDataHandler(webBase.BaseHandler, ABC):
             where = ""
         else:
             # where = f" WHERE `date` = '{date}'"
-            where = f" WHERE `date` = %s"
+            where = f" WHERE \"date\" = %s"
 
         order_by = ""
         if web_module_data.order_by is not None:
@@ -65,7 +65,12 @@ class GetStockDataHandler(webBase.BaseHandler, ABC):
         if web_module_data.order_columns is not None:
             order_columns = f",{web_module_data.order_columns}"
 
-        sql = f" SELECT *{order_columns} FROM `{web_module_data.table_name}`{where}{order_by}"
-        data = self.db.query(sql,date)
+        sql = f" SELECT *{order_columns} FROM \"{web_module_data.table_name}\"{where}{order_by}"
+        try:
+            data = self.db.query(sql,date)
+        except Exception as e:
+            # 表不存在时返回空数据，避免500错误
+            logging.error(f"GetStockDataHandler查询异常：{web_module_data.table_name}表{e}")
+            data = []
 
         self.write(json.dumps(data, cls=MyEncoder))
