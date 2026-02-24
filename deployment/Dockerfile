@@ -1,9 +1,13 @@
-FROM python:3.11-slim
+FROM docker.io/python:3.11.9-slim-bullseye
 
 # Set environment keys
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 ENV TZ=Asia/Shanghai
+
+# Use domestic mirror for faster downloads
+RUN sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.aliyun.com@g" /etc/apt/sources.list && \
+    echo "[global]\nindex-url = https://mirrors.aliyun.com/pypi/simple\ntrusted-host = mirrors.aliyun.com" > /etc/pip.conf
 
 # Install system dependencies and tools
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -38,8 +42,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy cron configuration
 COPY deployment/stock-cron /etc/cron.d/stock-cron
-RUN chmod 0644 /etc/cron.d/stock-cron && \
-    crontab /etc/cron.d/stock-cron
+RUN chmod 0644 /etc/cron.d/stock-cron
 
 # Copy start script
 COPY deployment/start.sh .

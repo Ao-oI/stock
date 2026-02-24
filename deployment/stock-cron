@@ -2,4 +2,4 @@ SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 # Run daily job
-0 17 * * 1-5 root cd /app && python instock/job/execute_daily_job.py >> /var/log/cron.job.log 2>&1
+0 17 * * 1-5 cd /app && python instock/job/execute_daily_job.py >> /var/log/cron.job.log 2>&1

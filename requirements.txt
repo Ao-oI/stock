@@ -11,7 +11,7 @@ SQLAlchemy==2.0.45
 tornado==6.5.4
 tqdm==4.67.1
 urllib3==2.6.3
-easytrader==0.23.7
 beautifulsoup4==4.14.3
 pycryptodome==3.23.0
 python_dateutil==2.9.0.post0
+py_mini_racer==0.6.0

@@ -222,6 +222,8 @@ def stock_dzjy_mrtj(start_date: str = '20220105', end_date: str = '20220105') ->
     }
     r = fetcher.make_request(url, params=params)
     data_json = r.json()
+    if data_json.get('result') is None or data_json['result'].get('data') is None:
+        return pd.DataFrame()
     temp_df = pd.DataFrame(data_json['result']["data"])
     temp_df.reset_index(inplace=True)
     temp_df['index'] = temp_df.index + 1

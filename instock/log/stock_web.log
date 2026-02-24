@@ -1,0 +1,1613 @@
+2026-02-14 21:16:34,141 ÊúçÂä°Â∑≤ÂêØÂä®ÔºåwebÂú∞ÂùÄ : http://localhost:9988/
+2026-02-14 21:29:36,353 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 21:31:14,241 Uncaught exception GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_selection&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_selection" ≤ª¥Ê‘⁄
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:14,495 500 GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1) 264.26ms
+2026-02-14 21:31:31,576 Uncaught exception GET /instock/api_data?name=cn_stock_spot&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_spot&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_spot" ≤ª¥Ê‘⁄
+LINE 1: ...code"="cn_stock_spot"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:31,579 500 GET /instock/api_data?name=cn_stock_spot&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 21:31:33,017 Uncaught exception GET /instock/api_data?name=cn_stock_chip_race_open&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_chip_race_open&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_chip_race_open" ≤ª¥Ê‘⁄
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:33,021 500 GET /instock/api_data?name=cn_stock_chip_race_open&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 21:31:33,891 Uncaught exception GET /instock/api_data?name=cn_stock_chip_race_end&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_chip_race_end&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_chip_race_end" ≤ª¥Ê‘⁄
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:33,894 500 GET /instock/api_data?name=cn_stock_chip_race_end&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 21:31:36,752 Uncaught exception GET /instock/api_data?name=cn_stock_fund_flow&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_fund_flow&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_fund_flow" ≤ª¥Ê‘⁄
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:36,755 500 GET /instock/api_data?name=cn_stock_fund_flow&date=2026-02-13 (127.0.0.1) 4.66ms
+2026-02-14 21:31:37,399 Uncaught exception GET /instock/api_data?name=cn_stock_blocktrade&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_blocktrade&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_blocktrade" ≤ª¥Ê‘⁄
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:37,403 500 GET /instock/api_data?name=cn_stock_blocktrade&date=2026-02-13 (127.0.0.1) 4.86ms
+2026-02-14 21:31:39,091 Uncaught exception GET /instock/api_data?name=cn_stock_indicators&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators" ≤ª¥Ê‘⁄
+LINE 1: ..."cn_stock_indicators"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:39,097 500 GET /instock/api_data?name=cn_stock_indicators&date=2026-02-13 (127.0.0.1) 6.53ms
+2026-02-14 21:31:39,879 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:39,882 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 4.27ms
+2026-02-14 21:31:41,370 Uncaught exception GET /instock/api_data?name=cn_stock_pattern&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_pattern&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_pattern" ≤ª¥Ê‘⁄
+LINE 1: ...e"="cn_stock_pattern"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:41,373 500 GET /instock/api_data?name=cn_stock_pattern&date=2026-02-13 (127.0.0.1) 3.71ms
+2026-02-14 21:31:42,546 Uncaught exception GET /instock/api_data?name=cn_stock_spot_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_spot_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_spot_buy" ≤ª¥Ê‘⁄
+LINE 1: ..."="cn_stock_spot_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:42,550 500 GET /instock/api_data?name=cn_stock_spot_buy&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 21:31:43,060 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_enter" ≤ª¥Ê‘⁄
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:43,063 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 21:31:43,525 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_parking_apron" ≤ª¥Ê‘⁄
+LINE 1: ...rategy_parking_apron"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:43,528 500 GET /instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13 (127.0.0.1) 4.02ms
+2026-02-14 21:31:44,015 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_breakthrough_platform&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_breakthrough_platform&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_breakthrough_platform" ≤ª¥Ê‘⁄
+LINE 1: ...reakthrough_platform"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:31:44,018 500 GET /instock/api_data?name=cn_stock_strategy_breakthrough_platform&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 21:32:22,199 Uncaught exception GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_selection&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_selection" ≤ª¥Ê‘⁄
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:32:22,202 500 GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 21:57:49,901 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 21:58:09,580 Uncaught exception GET /instock/api_data?name=cn_stock_chip_race_open&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_chip_race_open&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_chip_race_open" ≤ª¥Ê‘⁄
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 21:58:09,585 500 GET /instock/api_data?name=cn_stock_chip_race_open&date=2026-02-13 (127.0.0.1) 8.00ms
+2026-02-14 22:03:08,972 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 22:03:15,102 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 22:04:12,330 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 22:05:55,508 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 22:06:23,667 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 22:07:36,698 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 22:08:15,739 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 22:09:21,900 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 22:12:19,395 ÊúçÂä°Â∑≤ÂêØÂä®ÔºåwebÂú∞ÂùÄ : http://localhost:9988/
+2026-02-14 22:18:48,189 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_buy" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:18:48,194 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 8.00ms
+2026-02-14 22:23:59,591 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_buy" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:23:59,595 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 22:24:00,467 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_buy" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:24:00,470 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 4.25ms
+2026-02-14 22:24:01,631 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_sell" ‰∏çÂ≠òÂú®
+LINE 1: ...tock_indicators_sell"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:24:01,635 500 GET /instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13 (127.0.0.1) 5.06ms
+2026-02-14 22:24:36,320 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:24:36,323 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.01ms
+2026-02-14 22:24:38,612 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:24:38,616 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.75ms
+2026-02-14 22:24:40,330 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_keep_increasing" ‰∏çÂ≠òÂú®
+LINE 1: ...tegy_keep_increasing"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:24:40,335 500 GET /instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13 (127.0.0.1) 5.12ms
+2026-02-14 22:24:42,465 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_parking_apron" ‰∏çÂ≠òÂú®
+LINE 1: ...rategy_parking_apron"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:24:42,469 500 GET /instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13 (127.0.0.1) 5.56ms
+2026-02-14 22:24:43,831 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_backtrace_ma250" ‰∏çÂ≠òÂú®
+LINE 1: ...tegy_backtrace_ma250"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:24:43,835 500 GET /instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13 (127.0.0.1) 3.71ms
+2026-02-14 22:24:45,465 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:24:45,468 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.01ms
+2026-02-14 22:26:08,359 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_buy" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:26:08,363 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 22:26:09,852 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_sell" ‰∏çÂ≠òÂú®
+LINE 1: ...tock_indicators_sell"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:26:09,856 500 GET /instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13 (127.0.0.1) 3.53ms
+2026-02-14 22:27:01,989 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_keep_increasing" ‰∏çÂ≠òÂú®
+LINE 1: ...tegy_keep_increasing"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:27:01,994 500 GET /instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13 (127.0.0.1) 6.00ms
+2026-02-14 22:30:56,221 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_buy" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:30:56,224 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 4.67ms
+2026-02-14 22:30:59,162 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_sell" ‰∏çÂ≠òÂú®
+LINE 1: ...tock_indicators_sell"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:30:59,166 500 GET /instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 22:55:54,558 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:55:54,561 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 22:55:57,588 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:55:57,592 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 22:55:59,043 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_keep_increasing" ‰∏çÂ≠òÂú®
+LINE 1: ...tegy_keep_increasing"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:55:59,047 500 GET /instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 22:56:00,341 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_parking_apron" ‰∏çÂ≠òÂú®
+LINE 1: ...rategy_parking_apron"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:00,345 500 GET /instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 22:56:01,328 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_backtrace_ma250" ‰∏çÂ≠òÂú®
+LINE 1: ...tegy_backtrace_ma250"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:01,332 500 GET /instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13 (127.0.0.1) 3.57ms
+2026-02-14 22:56:02,044 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_breakthrough_platform&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_breakthrough_platform&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_breakthrough_platform" ‰∏çÂ≠òÂú®
+LINE 1: ...reakthrough_platform"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:02,048 500 GET /instock/api_data?name=cn_stock_strategy_breakthrough_platform&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 22:56:02,853 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_low_backtrace_increase" ‰∏çÂ≠òÂú®
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:02,856 500 GET /instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 22:56:03,543 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_turtle_trade&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_turtle_trade&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_turtle_trade" ‰∏çÂ≠òÂú®
+LINE 1: ...trategy_turtle_trade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:03,546 500 GET /instock/api_data?name=cn_stock_strategy_turtle_trade&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 22:56:04,332 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_high_tight_flag&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_high_tight_flag&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_high_tight_flag" ‰∏çÂ≠òÂú®
+LINE 1: ...tegy_high_tight_flag"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:04,338 500 GET /instock/api_data?name=cn_stock_strategy_high_tight_flag&date=2026-02-13 (127.0.0.1) 7.00ms
+2026-02-14 22:56:05,037 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_climax_limitdown&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_climax_limitdown&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_climax_limitdown" ‰∏çÂ≠òÂú®
+LINE 1: ...egy_climax_limitdown"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:05,040 500 GET /instock/api_data?name=cn_stock_strategy_climax_limitdown&date=2026-02-13 (127.0.0.1) 4.61ms
+2026-02-14 22:56:05,670 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_low_atr" ‰∏çÂ≠òÂú®
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:05,674 500 GET /instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13 (127.0.0.1) 4.56ms
+2026-02-14 22:56:08,942 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 22:56:08,946 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 23:00:07,343 Uncaught exception GET /instock/api_data?name=cn_stock_pattern&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_pattern&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_pattern" ‰∏çÂ≠òÂú®
+LINE 1: ...e"="cn_stock_pattern"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:00:07,346 500 GET /instock/api_data?name=cn_stock_pattern&date=2026-02-13 (127.0.0.1) 4.02ms
+2026-02-14 23:00:10,845 Uncaught exception GET /instock/api_data?name=cn_stock_indicators&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators" ‰∏çÂ≠òÂú®
+LINE 1: ..."cn_stock_indicators"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:00:10,848 500 GET /instock/api_data?name=cn_stock_indicators&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 23:01:58,844 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_backtrace_ma250" ‰∏çÂ≠òÂú®
+LINE 1: ...tegy_backtrace_ma250"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:01:58,848 500 GET /instock/api_data?name=cn_stock_strategy_backtrace_ma250&date=2026-02-13 (127.0.0.1) 4.44ms
+2026-02-14 23:02:00,071 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_parking_apron" ‰∏çÂ≠òÂú®
+LINE 1: ...rategy_parking_apron"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:02:00,074 500 GET /instock/api_data?name=cn_stock_strategy_parking_apron&date=2026-02-13 (127.0.0.1) 4.60ms
+2026-02-14 23:02:00,609 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_keep_increasing" ‰∏çÂ≠òÂú®
+LINE 1: ...tegy_keep_increasing"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:02:00,612 500 GET /instock/api_data?name=cn_stock_strategy_keep_increasing&date=2026-02-13 (127.0.0.1) 3.99ms
+2026-02-14 23:02:01,327 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:02:01,330 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 23:02:02,561 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:02:02,564 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 23:03:36,645 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_strategy_enter" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:03:36,648 500 GET /instock/api_data?name=cn_stock_strategy_enter&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 23:06:47,415 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 23:06:56,710 Uncaught exception GET /instock/api_data?name=cn_stock_pattern&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_pattern&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_pattern" ≤ª¥Ê‘⁄
+LINE 1: ...e"="cn_stock_pattern"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:06:56,715 500 GET /instock/api_data?name=cn_stock_pattern&date=2026-02-13 (127.0.0.1) 10.52ms
+2026-02-14 23:07:24,332 Uncaught exception GET /instock/api_data?name=cn_stock_indicators&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators" ≤ª¥Ê‘⁄
+LINE 1: ..."cn_stock_indicators"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:07:24,336 500 GET /instock/api_data?name=cn_stock_indicators&date=2026-02-13 (127.0.0.1) 3.98ms
+2026-02-14 23:07:26,118 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:07:26,122 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 4.94ms
+2026-02-14 23:07:27,059 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators_sell" ≤ª¥Ê‘⁄
+LINE 1: ...tock_indicators_sell"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:07:27,064 500 GET /instock/api_data?name=cn_stock_indicators_sell&date=2026-02-13 (127.0.0.1) 6.35ms
+2026-02-14 23:12:45,133 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 23:13:00,704 Uncaught exception GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_selection&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_selection" ≤ª¥Ê‘⁄
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:13:00,709 500 GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1) 7.74ms
+2026-02-14 23:13:18,297 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:13:18,302 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 4.09ms
+2026-02-14 23:13:24,912 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:13:24,915 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 4.62ms
+2026-02-14 23:13:49,969 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_backtrace_increase" ≤ª¥Ê‘⁄
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:13:49,974 500 GET /instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13 (127.0.0.1) 6.47ms
+2026-02-14 23:13:55,679 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_atr" ≤ª¥Ê‘⁄
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:13:55,683 500 GET /instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13 (127.0.0.1) 5.61ms
+2026-02-14 23:13:56,806 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_atr" ≤ª¥Ê‘⁄
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:13:56,809 500 GET /instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 23:14:46,165 Uncaught exception GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_selection&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_selection" ≤ª¥Ê‘⁄
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:14:46,168 500 GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1) 3.87ms
+2026-02-14 23:14:49,666 Uncaught exception GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_selection&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_selection" ≤ª¥Ê‘⁄
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:14:49,669 500 GET /instock/api_data?name=cn_stock_selection&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 23:15:27,650 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:15:27,654 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 5.00ms
+2026-02-14 23:15:33,808 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:15:33,813 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 5.28ms
+2026-02-14 23:15:59,868 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_backtrace_increase" ≤ª¥Ê‘⁄
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:15:59,873 500 GET /instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13 (127.0.0.1) 6.21ms
+2026-02-14 23:16:05,280 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_atr" ≤ª¥Ê‘⁄
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:16:05,285 500 GET /instock/api_data?name=cn_stock_strategy_low_atr&date=2026-02-13 (127.0.0.1) 5.92ms
+2026-02-14 23:16:11,273 Uncaught exception GET /instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_backtrace_increase" ≤ª¥Ê‘⁄
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:16:11,276 500 GET /instock/api_data?name=cn_stock_strategy_low_backtrace_increase&date=2026-02-13 (127.0.0.1) 4.00ms
+2026-02-14 23:16:59,541 Uncaught exception GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\tornado\web.py", line 1857, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\web\dataTableHandler.py", line 69, in get
+    data = self.db.query(sql,date)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "E:\projects\stocks\stock\instock\lib\torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda3\envs\stock_env\Lib\site-packages\psycopg2\extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:16:59,545 500 GET /instock/api_data?name=cn_stock_indicators_buy&date=2026-02-13 (127.0.0.1) 5.05ms
+2026-02-14 23:21:17,742 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 23:21:28,882 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 23:23:28,191 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-14 23:23:53,426 GetStockDataHandler≤È—Ø“Ï≥££∫cn_stock_indicators_buy±Ì¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:24:10,226 GetStockDataHandler≤È—Ø“Ï≥££∫cn_stock_strategy_low_backtrace_increase±Ì¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_backtrace_increase" ≤ª¥Ê‘⁄
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:24:14,957 GetStockDataHandler≤È—Ø“Ï≥££∫cn_stock_strategy_low_atr±Ì¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_atr" ≤ª¥Ê‘⁄
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-14 23:24:44,726 GetStockDataHandler≤È—Ø“Ï≥££∫cn_stock_strategy_low_backtrace_increase±Ì¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_backtrace_increase" ≤ª¥Ê‘⁄
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-15 06:50:46,725 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-15 06:50:59,824 database.select_countº∆À„ ˝¡ø¥¶¿Ì“Ï≥££∫¥ÌŒÛ:  ”Ô∑®¥ÌŒÛ ‘⁄ "`" ªÚ∏ΩΩ¸µƒ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-15 06:51:00,158 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p1172', ...)}
+2026-02-15 06:51:00,158 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p1188', ...)}
+2026-02-15 06:51:00,159 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p1197', ...)}
+2026-02-15 06:52:55,755 database.select_countº∆À„ ˝¡ø¥¶¿Ì“Ï≥££∫¥ÌŒÛ:  ”Ô∑®¥ÌŒÛ ‘⁄ "`" ªÚ∏ΩΩ¸µƒ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-15 06:52:56,114 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p11971', ...)}
+2026-02-15 06:52:56,115 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p11962', ...)}
+2026-02-15 06:52:56,115 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p11946', ...)}
+2026-02-15 06:54:06,773 GetStockDataHandler≤È—Ø“Ï≥££∫cn_stock_indicators_buy±Ì¥ÌŒÛ:  πÿœµ "cn_stock_indicators_buy" ≤ª¥Ê‘⁄
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-15 06:54:33,662 database.select_countº∆À„ ˝¡ø¥¶¿Ì“Ï≥££∫¥ÌŒÛ:  ”Ô∑®¥ÌŒÛ ‘⁄ "`" ªÚ∏ΩΩ¸µƒ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-15 06:54:33,986 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p24014', ...)}
+2026-02-15 06:54:33,987 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p24030', ...)}
+2026-02-15 06:54:33,987 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p24039', ...)}
+2026-02-15 06:54:56,292 database.select_countº∆À„ ˝¡ø¥¶¿Ì“Ï≥££∫¥ÌŒÛ:  ”Ô∑®¥ÌŒÛ ‘⁄ "`" ªÚ∏ΩΩ¸µƒ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-15 06:54:56,637 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p34786', ...)}
+2026-02-15 06:54:56,637 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p34802', ...)}
+2026-02-15 06:54:56,637 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p34811', ...)}
+2026-02-15 06:55:15,543 database.select_countº∆À„ ˝¡ø¥¶¿Ì“Ï≥££∫¥ÌŒÛ:  ”Ô∑®¥ÌŒÛ ‘⁄ "`" ªÚ∏ΩΩ¸µƒ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-15 06:55:15,854 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p46854', ...)}
+2026-02-15 06:55:15,854 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p46870', ...)}
+2026-02-15 06:55:15,854 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p46879', ...)}
+2026-02-15 06:55:59,922 database.select_countº∆À„ ˝¡ø¥¶¿Ì“Ï≥££∫¥ÌŒÛ:  ”Ô∑®¥ÌŒÛ ‘⁄ "`" ªÚ∏ΩΩ¸µƒ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-15 06:56:00,247 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p57219', ...)}
+2026-02-15 06:56:00,247 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p57194', ...)}
+2026-02-15 06:56:00,247 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p57210', ...)}
+2026-02-15 07:05:18,293 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-15 12:54:43,641 GetStockDataHandler≤È—Ø“Ï≥££∫cn_stock_strategy_low_atr±Ì¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_atr" ≤ª¥Ê‘⁄
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-15 12:54:51,544 GetStockDataHandler≤È—Ø“Ï≥££∫cn_stock_strategy_low_backtrace_increase±Ì¥ÌŒÛ:  πÿœµ "cn_stock_strategy_low_backtrace_increase" ≤ª¥Ê‘⁄
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-15 14:14:37,991 ∑˛ŒÒ“—∆Ù∂Ø£¨webµÿ÷∑ : http://localhost:9988/
+2026-02-19 22:28:36,771 ÊúçÂä°Â∑≤ÂêØÂä®ÔºåwebÂú∞ÂùÄ : http://localhost:9988/
+2026-02-19 22:28:59,430 database.select_countËÆ°ÁÆóÊï∞ÈáèÂ§ÑÁêÜÂºÇÂ∏∏ÔºöÈîôËØØ:  ËØ≠Ê≥ïÈîôËØØ Âú® "`" ÊàñÈôÑËøëÁöÑ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-19 22:28:59,751 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p1172', ...)}
+2026-02-19 22:28:59,751 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p1197', ...)}
+2026-02-19 22:28:59,755 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p1188', ...)}
+2026-02-19 22:29:51,930 database.select_countËÆ°ÁÆóÊï∞ÈáèÂ§ÑÁêÜÂºÇÂ∏∏ÔºöÈîôËØØ:  ËØ≠Ê≥ïÈîôËØØ Âú® "`" ÊàñÈôÑËøëÁöÑ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-19 22:29:52,269 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p11946', ...)}
+2026-02-19 22:29:52,269 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p11962', ...)}
+2026-02-19 22:29:52,269 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p11971', ...)}
+2026-02-21 07:41:30,123 ÊúçÂä°Â∑≤ÂêØÂä®ÔºåwebÂú∞ÂùÄ : http://localhost:9988/
+2026-02-21 07:43:03,318 GetStockDataHandlerÊü•ËØ¢ÂºÇÂ∏∏Ôºöcn_stock_indicators_buyË°®ÈîôËØØ:  ÂÖ≥Á≥ª "cn_stock_indicators_buy" ‰∏çÂ≠òÂú®
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 07:45:02,056 database.select_countËÆ°ÁÆóÊï∞ÈáèÂ§ÑÁêÜÂºÇÂ∏∏ÔºöÈîôËØØ:  ËØ≠Ê≥ïÈîôËØØ Âú® "`" ÊàñÈôÑËøëÁöÑ
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-21 07:45:02,394 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p1188', ...)}
+2026-02-21 07:45:02,394 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p1197', ...)}
+2026-02-21 07:45:02,394 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p1172', ...)}

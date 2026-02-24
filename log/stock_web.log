@@ -1,0 +1,1026 @@
+2026-02-21 10:26:39,688 服务已启动，web地址 : http://localhost:9988/
+2026-02-21 10:46:10,368 GetStockDataHandler查询异常：cn_stock_selection表relation "cn_stock_selection" does not exist
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 10:46:13,274 GetStockDataHandler查询异常：cn_stock_selection表relation "cn_stock_selection" does not exist
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 10:46:16,098 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 10:46:17,184 GetStockDataHandler查询异常：cn_stock_fund_flow表relation "cn_stock_fund_flow" does not exist
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 10:46:17,884 GetStockDataHandler查询异常：cn_stock_lhb表relation "cn_stock_lhb" does not exist
+LINE 1: ..."code"="cn_stock_lhb"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 10:46:18,410 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-21 10:47:08,521 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 10:47:09,381 GetStockDataHandler查询异常：cn_stock_spot表relation "cn_stock_spot" does not exist
+LINE 1: ...code"="cn_stock_spot"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 10:50:05,813 服务已启动，web地址 : http://localhost:9988/
+2026-02-21 10:51:55,103 服务已启动，web地址 : http://localhost:9988/
+2026-02-21 10:52:41,017 GetStockDataHandler查询异常：cn_stock_selection表relation "cn_stock_selection" does not exist
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 10:52:46,765 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:02:55,754 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:03:03,432 GetStockDataHandler查询异常：cn_stock_selection表relation "cn_stock_selection" does not exist
+LINE 1: ...="cn_stock_selection"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:16:56,922 GetStockDataHandler查询异常：cn_stock_indicators表relation "cn_stock_indicators" does not exist
+LINE 1: ..."cn_stock_indicators"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:04,878 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:08,391 GetStockDataHandler查询异常：cn_stock_pattern表relation "cn_stock_pattern" does not exist
+LINE 1: ...e"="cn_stock_pattern"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:12,899 GetStockDataHandler查询异常：cn_stock_strategy_enter表relation "cn_stock_strategy_enter" does not exist
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:18,379 GetStockDataHandler查询异常：cn_stock_strategy_parking_apron表relation "cn_stock_strategy_parking_apron" does not exist
+LINE 1: ...rategy_parking_apron"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:26,579 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:47,985 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:54,425 GetStockDataHandler查询异常：cn_stock_limitup_reason表relation "cn_stock_limitup_reason" does not exist
+LINE 1: ...stock_limitup_reason"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:55,206 GetStockDataHandler查询异常：cn_stock_fund_flow表relation "cn_stock_fund_flow" does not exist
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:17:58,608 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:03,113 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-21 11:18:04,975 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-21 11:18:09,268 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:10,842 GetStockDataHandler查询异常：cn_stock_indicators表relation "cn_stock_indicators" does not exist
+LINE 1: ..."cn_stock_indicators"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:12,109 GetStockDataHandler查询异常：cn_stock_indicators_sell表relation "cn_stock_indicators_sell" does not exist
+LINE 1: ...tock_indicators_sell"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:15,635 GetStockDataHandler查询异常：cn_stock_strategy_enter表relation "cn_stock_strategy_enter" does not exist
+LINE 1: ...stock_strategy_enter"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:17,766 GetStockDataHandler查询异常：cn_stock_strategy_keep_increasing表relation "cn_stock_strategy_keep_increasing" does not exist
+LINE 1: ...tegy_keep_increasing"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:18,955 GetStockDataHandler查询异常：cn_stock_strategy_parking_apron表relation "cn_stock_strategy_parking_apron" does not exist
+LINE 1: ...rategy_parking_apron"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:19,731 GetStockDataHandler查询异常：cn_stock_strategy_backtrace_ma250表relation "cn_stock_strategy_backtrace_ma250" does not exist
+LINE 1: ...tegy_backtrace_ma250"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:20,326 GetStockDataHandler查询异常：cn_stock_strategy_breakthrough_platform表relation "cn_stock_strategy_breakthrough_platform" does not exist
+LINE 1: ...reakthrough_platform"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:20,917 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:21,497 GetStockDataHandler查询异常：cn_stock_strategy_turtle_trade表relation "cn_stock_strategy_turtle_trade" does not exist
+LINE 1: ...trategy_turtle_trade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:22,027 GetStockDataHandler查询异常：cn_stock_strategy_high_tight_flag表relation "cn_stock_strategy_high_tight_flag" does not exist
+LINE 1: ...tegy_high_tight_flag"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:22,596 GetStockDataHandler查询异常：cn_stock_strategy_climax_limitdown表relation "cn_stock_strategy_climax_limitdown" does not exist
+LINE 1: ...egy_climax_limitdown"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:23,254 GetStockDataHandler查询异常：cn_stock_strategy_low_atr表relation "cn_stock_strategy_low_atr" does not exist
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:26,367 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:28,987 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:30,079 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:55,636 GetStockDataHandler查询异常：cn_stock_fund_flow表relation "cn_stock_fund_flow" does not exist
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:56,433 GetStockDataHandler查询异常：cn_stock_limitup_reason表relation "cn_stock_limitup_reason" does not exist
+LINE 1: ...stock_limitup_reason"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:18:57,195 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:24:24,845 GetStockDataHandler查询异常：cn_stock_fund_flow表relation "cn_stock_fund_flow" does not exist
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:24:25,487 GetStockDataHandler查询异常：cn_stock_limitup_reason表relation "cn_stock_limitup_reason" does not exist
+LINE 1: ...stock_limitup_reason"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:33:31,072 服务已启动，web地址 : http://localhost:9988/
+2026-02-21 11:41:16,666 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:41:20,365 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:41:21,204 GetStockDataHandler查询异常：cn_stock_limitup_reason表relation "cn_stock_limitup_reason" does not exist
+LINE 1: ...stock_limitup_reason"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:41:21,865 GetStockDataHandler查询异常：cn_stock_fund_flow表relation "cn_stock_fund_flow" does not exist
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:41:25,133 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:41:26,452 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-21 11:41:27,034 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-21 11:41:28,926 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-21 11:41:38,637 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-22 19:37:01,089 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:11:53,429 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:12:04,597 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:12:12,739 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:12:13,801 GetStockDataHandler查询异常：cn_stock_limitup_reason表relation "cn_stock_limitup_reason" does not exist
+LINE 1: ...stock_limitup_reason"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:12:22,771 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:12:32,093 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:12:57,778 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:12:59,412 GetStockDataHandler查询异常：cn_stock_chip_race_open表relation "cn_stock_chip_race_open" does not exist
+LINE 1: ...stock_chip_race_open"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:14:18,061 GetStockDataHandler查询异常：cn_stock_limitup_reason表relation "cn_stock_limitup_reason" does not exist
+LINE 1: ...stock_limitup_reason"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:28:04,811 服务已启动，web地址 : http://localhost:9988/
+2026-02-23 20:28:41,764 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:28:53,863 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:29:02,605 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:29:16,293 GetStockDataHandler查询异常：cn_stock_chip_race_end表relation "cn_stock_chip_race_end" does not exist
+LINE 1: ..._stock_chip_race_end"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:42:37,706 GetStockDataHandler查询异常：cn_stock_fund_flow表relation "cn_stock_fund_flow" does not exist
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:42:46,336 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:42:52,882 GetStockDataHandler查询异常：cn_stock_fund_flow表relation "cn_stock_fund_flow" does not exist
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:42:57,237 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:43:00,249 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:43:01,213 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:43:08,070 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:43:23,773 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:43:32,285 GetStockDataHandler查询异常：cn_stock_strategy_low_atr表relation "cn_stock_strategy_low_atr" does not exist
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:44:11,481 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:44:39,513 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:44:53,477 GetStockDataHandler查询异常：cn_stock_fund_flow表relation "cn_stock_fund_flow" does not exist
+LINE 1: ...="cn_stock_fund_flow"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:45:11,877 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:45:20,088 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:45:28,790 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:45:35,203 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:45:43,648 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:46:55,312 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:46:56,335 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:46:57,730 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:49:01,831 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:49:05,011 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:49:08,083 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:49:14,623 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:49:15,731 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:49:16,474 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:53:53,882 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:53:57,147 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:54:03,642 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:54:05,214 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:54:06,477 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:54:07,327 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:54:15,254 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:54:56,063 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:55:01,969 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:55:04,517 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:55:06,014 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:55:08,431 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:55:09,667 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:55:11,280 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:57:46,724 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:57:55,073 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:57:57,064 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:58:00,152 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:58:01,005 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:58:01,731 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:58:15,563 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:58:17,226 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:58:18,059 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:58:20,148 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:58:21,186 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:59:13,862 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:59:15,110 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:59:19,644 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:59:20,583 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 20:59:22,572 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 20:59:23,630 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 20:59:24,298 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:01:20,151 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:01:23,340 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:01:28,386 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:01:29,191 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:01:30,046 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:02:42,888 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:02:44,780 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:02:46,707 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:02:48,659 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:02:52,129 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:02:53,466 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:02:54,366 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:02:55,182 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:02:55,863 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:02:56,453 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:02:57,003 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:04:57,982 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:05:01,298 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:05:02,446 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:05:02,991 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:05:05,467 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:05:15,640 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:09:48,503 服务已启动，web地址 : http://localhost:9988/
+2026-02-23 21:12:55,456 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:12:59,326 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:13:01,427 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:13:04,717 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:15:08,536 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:15:09,700 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:15:11,004 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:15:11,782 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:15:12,534 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:15:13,325 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:15:13,930 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:15:14,622 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:15:15,106 GetStockDataHandler查询异常：cn_stock_blocktrade表relation "cn_stock_blocktrade" does not exist
+LINE 1: ..."cn_stock_blocktrade"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:17:11,573 服务已启动，web地址 : http://localhost:9988/
+2026-02-23 21:27:52,304 服务已启动，web地址 : http://localhost:9988/
+2026-02-23 21:34:46,405 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:34:47,843 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:34:53,008 GetStockDataHandler查询异常：cn_stock_fund_flow_industry表relation "cn_stock_fund_flow_industry" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_industry" WHERE "date" = ...
+                       ^
+
+2026-02-23 21:34:53,563 GetStockDataHandler查询异常：cn_stock_fund_flow_concept表relation "cn_stock_fund_flow_concept" does not exist
+LINE 1:  SELECT * FROM "cn_stock_fund_flow_concept" WHERE "date" = '...
+                       ^
+
+2026-02-23 21:49:41,506 服务已启动，web地址 : http://localhost:9988/
+2026-02-23 21:50:24,568 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:50:35,553 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:50:41,659 GetStockDataHandler查询异常：cn_stock_strategy_low_atr表relation "cn_stock_strategy_low_atr" does not exist
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:50:50,660 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 21:50:54,739 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 22:12:40,881 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 22:12:50,326 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 22:12:55,710 GetStockDataHandler查询异常：cn_stock_strategy_low_atr表relation "cn_stock_strategy_low_atr" does not exist
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 22:12:59,974 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 22:24:52,990 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 22:24:58,456 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-23 22:25:10,207 database.select_count计算数量处理异常：syntax error at or near "`"
+LINE 1: SELECT EXISTS(SELECT 1 FROM `cn_stock_attention` WHERE `code...
+                                    ^
+
+2026-02-23 22:25:10,552 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p1188', ...)}
+2026-02-23 22:25:10,552 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y1='y1' [no close matches] {renderer: GlyphRenderer(id='p1197', ...)}
+2026-02-23 22:25:10,552 E-1001 (BAD_COLUMN_NAME): Glyph refers to nonexistent column name. This could either be due to a misspelling or typo, or due to an expected column being missing. : x='x' [no close matches], y='y' [no close matches] {renderer: GlyphRenderer(id='p1172', ...)}
+2026-02-24 07:48:47,891 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 07:50:48,465 GetStockDataHandler查询异常：cn_stock_strategy_enter表tuple index out of range
+2026-02-24 07:50:52,793 GetStockDataHandler查询异常：cn_stock_spot_buy表tuple index out of range
+2026-02-24 07:50:55,885 GetStockDataHandler查询异常：cn_stock_strategy_parking_apron表tuple index out of range
+2026-02-24 07:50:57,586 GetStockDataHandler查询异常：cn_stock_strategy_backtrace_ma250表tuple index out of range
+2026-02-24 07:50:58,502 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表tuple index out of range
+2026-02-24 07:50:59,489 GetStockDataHandler查询异常：cn_stock_strategy_breakthrough_platform表tuple index out of range
+2026-02-24 07:51:08,948 GetStockDataHandler查询异常：cn_stock_spot表tuple index out of range
+2026-02-24 07:51:12,428 GetStockDataHandler查询异常：cn_stock_chip_race_open表tuple index out of range
+2026-02-24 07:51:14,106 GetStockDataHandler查询异常：cn_stock_chip_race_end表tuple index out of range
+2026-02-24 07:51:15,028 GetStockDataHandler查询异常：cn_stock_limitup_reason表tuple index out of range
+2026-02-24 07:51:16,318 GetStockDataHandler查询异常：cn_stock_fund_flow表tuple index out of range
+2026-02-24 07:51:16,675 GetStockDataHandler查询异常：cn_stock_bonus表tuple index out of range
+2026-02-24 07:51:17,825 GetStockDataHandler查询异常：cn_stock_lhb表tuple index out of range
+2026-02-24 07:51:18,521 GetStockDataHandler查询异常：cn_stock_blocktrade表tuple index out of range
+2026-02-24 07:51:24,608 GetStockDataHandler查询异常：cn_stock_spot表tuple index out of range
+2026-02-24 07:51:40,350 GetStockDataHandler查询异常：cn_stock_spot表tuple index out of range
+2026-02-24 07:51:40,786 GetStockDataHandler查询异常：cn_stock_chip_race_open表tuple index out of range
+2026-02-24 07:51:42,106 GetStockDataHandler查询异常：cn_stock_chip_race_end表tuple index out of range
+2026-02-24 07:51:43,062 GetStockDataHandler查询异常：cn_stock_limitup_reason表tuple index out of range
+2026-02-24 07:51:43,820 GetStockDataHandler查询异常：cn_stock_fund_flow表tuple index out of range
+2026-02-24 07:51:44,981 GetStockDataHandler查询异常：cn_stock_bonus表tuple index out of range
+2026-02-24 07:51:45,829 GetStockDataHandler查询异常：cn_stock_lhb表tuple index out of range
+2026-02-24 07:51:46,630 GetStockDataHandler查询异常：cn_stock_blocktrade表tuple index out of range
+2026-02-24 07:51:51,216 GetStockDataHandler查询异常：cn_stock_blocktrade表tuple index out of range
+2026-02-24 07:54:03,608 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 07:55:17,905 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 07:56:52,688 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 07:57:05,375 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 07:57:12,498 GetStockDataHandler查询异常：cn_stock_strategy_low_atr表relation "cn_stock_strategy_low_atr" does not exist
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 07:58:57,045 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 08:02:43,612 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 08:13:08,789 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 15:14:22,279 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 15:17:47,054 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 15:24:02,931 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 15:24:37,235 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 15:24:41,445 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 15:24:42,912 GetStockDataHandler查询异常：cn_stock_strategy_low_atr表relation "cn_stock_strategy_low_atr" does not exist
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 18:01:52,522 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 18:19:21,433 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 18:19:31,203 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 18:19:33,396 GetStockDataHandler查询异常：cn_stock_strategy_low_atr表relation "cn_stock_strategy_low_atr" does not exist
+LINE 1: ...ock_strategy_low_atr"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 18:20:15,286 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 18:39:25,682 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 18:40:18,990 Uncaught exception GET /instock/data?table_name=cn_stock_pattern (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_pattern', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if result and result[0]:
+                  ~~~~~~^^^
+KeyError: 0
+2026-02-24 18:40:18,994 500 GET /instock/data?table_name=cn_stock_pattern (172.20.0.1) 29.97ms
+2026-02-24 18:40:20,538 Uncaught exception GET /instock/data?table_name=cn_stock_pattern (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_pattern', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if result and result[0]:
+                  ~~~~~~^^^
+KeyError: 0
+2026-02-24 18:40:20,540 500 GET /instock/data?table_name=cn_stock_pattern (172.20.0.1) 2.63ms
+2026-02-24 18:40:22,816 Uncaught exception GET /instock/data?table_name=cn_stock_pattern (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_pattern', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if result and result[0]:
+                  ~~~~~~^^^
+KeyError: 0
+2026-02-24 18:40:22,817 500 GET /instock/data?table_name=cn_stock_pattern (172.20.0.1) 3.06ms
+2026-02-24 18:41:01,947 Uncaught exception GET /instock/data?table_name=cn_stock_selection (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_selection', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if result and result[0]:
+                  ~~~~~~^^^
+KeyError: 0
+2026-02-24 18:41:01,949 500 GET /instock/data?table_name=cn_stock_selection (172.20.0.1) 11.06ms
+2026-02-24 18:42:32,278 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 18:43:20,606 Uncaught exception GET /instock/data?table_name=cn_stock_indicators_buy (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_indicators_buy', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 39, in get
+    result = self.db.get(sql)
+             ^^^^^^^^^^^^^^^^
+  File "/app/instock/lib/torndb.py", line 74, in get
+    rows = self.query(query, *parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/lib/torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "/app/instock/lib/torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/psycopg2/extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cn_stock_indicators_buy" does not exist
+LINE 1: SELECT MAX("date") FROM "cn_stock_indicators_buy"
+                                ^
+
+2026-02-24 18:43:20,609 500 GET /instock/data?table_name=cn_stock_indicators_buy (172.20.0.1) 110.82ms
+2026-02-24 18:44:01,853 Uncaught exception GET /instock/data?table_name=cn_stock_indicators_buy (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_indicators_buy', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 39, in get
+    result = self.db.get(sql)
+             ^^^^^^^^^^^^^^^^
+  File "/app/instock/lib/torndb.py", line 74, in get
+    rows = self.query(query, *parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/lib/torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "/app/instock/lib/torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/psycopg2/extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cn_stock_indicators_buy" does not exist
+LINE 1: SELECT MAX("date") FROM "cn_stock_indicators_buy"
+                                ^
+
+2026-02-24 18:44:01,854 500 GET /instock/data?table_name=cn_stock_indicators_buy (172.20.0.1) 2.33ms
+2026-02-24 18:44:08,794 Uncaught exception GET /instock/data?table_name=cn_stock_indicators_buy (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_indicators_buy', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 39, in get
+    result = self.db.get(sql)
+             ^^^^^^^^^^^^^^^^
+  File "/app/instock/lib/torndb.py", line 74, in get
+    rows = self.query(query, *parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/lib/torndb.py", line 68, in query
+    self._execute(cursor, query, parameters)
+  File "/app/instock/lib/torndb.py", line 59, in _execute
+    return cursor.execute(query, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/psycopg2/extras.py", line 146, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cn_stock_indicators_buy" does not exist
+LINE 1: SELECT MAX("date") FROM "cn_stock_indicators_buy"
+                                ^
+
+2026-02-24 18:44:08,797 500 GET /instock/data?table_name=cn_stock_indicators_buy (172.20.0.1) 3.36ms
+2026-02-24 18:45:15,447 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 18:47:09,455 Uncaught exception GET /instock/data?table_name=cn_stock_pattern (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_pattern', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if table_exists and table_exists[0]:
+                        ~~~~~~~~~~~~^^^
+KeyError: 0
+2026-02-24 18:47:09,457 500 GET /instock/data?table_name=cn_stock_pattern (172.20.0.1) 23.87ms
+2026-02-24 18:47:12,340 Uncaught exception GET /instock/data?table_name=cn_stock_pattern (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_pattern', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if table_exists and table_exists[0]:
+                        ~~~~~~~~~~~~^^^
+KeyError: 0
+2026-02-24 18:47:12,342 500 GET /instock/data?table_name=cn_stock_pattern (172.20.0.1) 4.09ms
+2026-02-24 18:47:20,847 Uncaught exception GET /instock/data?table_name=cn_stock_selection (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_selection', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if table_exists and table_exists[0]:
+                        ~~~~~~~~~~~~^^^
+KeyError: 0
+2026-02-24 18:47:20,849 500 GET /instock/data?table_name=cn_stock_selection (172.20.0.1) 4.03ms
+2026-02-24 18:47:23,965 Uncaught exception GET /instock/data?table_name=cn_stock_selection (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_selection', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if table_exists and table_exists[0]:
+                        ~~~~~~~~~~~~^^^
+KeyError: 0
+2026-02-24 18:47:23,966 500 GET /instock/data?table_name=cn_stock_selection (172.20.0.1) 3.36ms
+2026-02-24 18:47:25,575 Uncaught exception GET /instock/data?table_name=cn_stock_selection (172.20.0.1)
+HTTPServerRequest(protocol='http', host='localhost:9988', method='GET', uri='/instock/data?table_name=cn_stock_selection', version='HTTP/1.1', remote_ip='172.20.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/tornado/web.py", line 1859, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/tornado/gen.py", line 221, in wrapper
+    result = ctx_run(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/instock/web/dataTableHandler.py", line 40, in get
+    if table_exists and table_exists[0]:
+                        ~~~~~~~~~~~~^^^
+KeyError: 0
+2026-02-24 18:47:25,577 500 GET /instock/data?table_name=cn_stock_selection (172.20.0.1) 3.48ms
+2026-02-24 18:52:10,514 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 18:52:47,061 GetStockDataHandler查询异常：cn_stock_indicators_buy表relation "cn_stock_indicators_buy" does not exist
+LINE 1: ...stock_indicators_buy"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+
+2026-02-24 18:58:40,781 服务已启动，web地址 : http://localhost:9988/
+2026-02-24 19:00:01,157 GetStockDataHandler查询异常：cn_stock_strategy_low_backtrace_increase表relation "cn_stock_strategy_low_backtrace_increase" does not exist
+LINE 1: ...w_backtrace_increase"."code") AS "cdatetime" FROM "cn_stock_...
+                                                             ^
+

@@ -294,13 +294,77 @@ def stock_imitup_reason_data(date):
     except Exception as e:
         logging.error(f"basic_data_other_daily_job.stock_imitup_reason_data：{e}")
 
+# 每日尾盘抢筹
+def stock_chip_race_end_data(date):
+    try:
+        data = stf.fetch_stock_chip_race_end(date)
+        if data is None or len(data.index) == 0:
+            return
+
+        table_name = tbs.TABLE_CN_STOCK_CHIP_RACE_END['name']
+        # 删除老数据。
+        if mdb.checkTableIsExist(table_name):
+            del_sql = f"DELETE FROM \"{table_name}\" where \"date\" = '{date}'"
+            mdb.executeSql(del_sql)
+            cols_type = None
+        else:
+            cols_type = tbs.get_field_types(tbs.TABLE_CN_STOCK_CHIP_RACE_END['columns'])
+
+        mdb.insert_db_from_df(data, table_name, cols_type, False, "\"date\",\"code\"")
+    except Exception as e:
+        logging.error(f"basic_data_other_daily_job.stock_chip_race_end_data：{e}")
+
+# 每日大宗交易
+def stock_blocktrade_data(date):
+    try:
+        logging.info(f"开始执行 stock_blocktrade_data，日期：{date}")
+        data = stf.fetch_stock_blocktrade_data(date)
+        logging.info(f"获取数据完成，数据：{data}")
+        table_name = tbs.TABLE_CN_STOCK_BLOCKTRADE['name']
+        logging.info(f"表名：{table_name}")
+        if not mdb.checkTableIsExist(table_name):
+            logging.info(f"表不存在，准备创建")
+            # 直接创建表结构
+            # 创建表结构的 SQL 语句
+            create_sql = f"CREATE TABLE \"{table_name}\" ("
+            create_sql += "\"date\" DATE,"
+            create_sql += "\"code\" VARCHAR(6),"
+            create_sql += "\"name\" VARCHAR(20),"
+            create_sql += "\"new_price\" FLOAT,"
+            create_sql += "\"change_rate\" FLOAT,"
+            create_sql += "\"average_price\" FLOAT,"
+            create_sql += "\"overflow_rate\" FLOAT,"
+            create_sql += "\"trade_number\" FLOAT,"
+            create_sql += "\"sum_volume\" FLOAT,"
+            create_sql += "\"sum_turnover\" FLOAT,"
+            create_sql += "\"turnover_market_rate\" FLOAT,"
+            # 添加主键
+            create_sql += "PRIMARY KEY (\"date\", \"code\")"
+            create_sql += ")"
+            logging.info(f"创建表结构的 SQL 语句：{create_sql}")
+            # 执行 SQL 语句
+            mdb.executeSql(create_sql)
+            logging.info(f"表结构创建完成")
+        else:
+            logging.info(f"表已存在，删除老数据")
+            del_sql = f"DELETE FROM \"{table_name}\" where \"date\" = '{date}'"
+            mdb.executeSql(del_sql)
+        if data is not None and len(data.index) > 0:
+            logging.info(f"有数据，准备插入")
+            cols_type = tbs.get_field_types(tbs.TABLE_CN_STOCK_BLOCKTRADE['columns'])
+            mdb.insert_db_from_df(data, table_name, cols_type, False, "\"date\",\"code\"")
+    except Exception as e:
+        logging.error(f"basic_data_other_daily_job.stock_blocktrade_data：{e}")
+
 def main():
     runt.run_with_args(save_nph_stock_lhb_data)
     runt.run_with_args(save_nph_stock_bonus)
     runt.run_with_args(save_nph_stock_fund_flow_data)
     runt.run_with_args(save_nph_stock_sector_fund_flow_data)
     runt.run_with_args(stock_chip_race_open_data)
+    runt.run_with_args(stock_chip_race_end_data)  # 新增调用
     runt.run_with_args(stock_imitup_reason_data)
+    runt.run_with_args(stock_blocktrade_data)  # 新增调用
 
 
 # main函数入口

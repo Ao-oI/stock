@@ -41,8 +41,8 @@ if not os.path.exists(stock_hist_cache_path):
 # 300、301开头的股票是创业板股票；400开头的股票是三板市场股票。
 # 430、83、87开头的股票是北证A股
 def is_a_stock(code):
-    # 上证A股  # 深证A股
-    return code.startswith(('600', '601', '603', '605', '000', '001', '002', '003', '300', '301'))
+    # 上证A股  # 深证A股  # 科创板
+    return code.startswith(('600', '601', '603', '605', '688', '000', '001', '002', '003', '300', '301'))
 
 
 # 过滤掉 st 股票。
@@ -252,11 +252,31 @@ def fetch_stock_blocktrade_data(date):
         if data is None or len(data.index) == 0:
             return None
 
-        columns = list(tbs.TABLE_CN_STOCK_BLOCKTRADE['columns'])
-        columns.insert(0, 'index')
-        data.columns = columns
+        # 映射列名
+        column_mapping = {
+            '交易日期': 'date',
+            '证券代码': 'code',
+            '证券简称': 'name',
+            '收盘价': 'new_price',
+            '涨跌幅': 'change_rate',
+            '成交价': 'average_price',
+            '折溢率': 'overflow_rate',
+            '成交笔数': 'trade_number',
+            '成交总量': 'sum_volume',
+            '成交总额': 'sum_turnover',
+            '成交总额/流通市值': 'turnover_market_rate'
+        }
+        
+        # 重命名列
+        data = data.rename(columns=column_mapping)
+        
+        # 只保留需要的列
+        required_columns = list(tbs.TABLE_CN_STOCK_BLOCKTRADE['columns'].keys())
+        data = data[required_columns]
+        
+        # 筛选A股
         data = data.loc[data['code'].apply(is_a_stock)]
-        data.drop('index', axis=1, inplace=True)
+        
         return data
     except TypeError:
         logging.error("处理异常：目前还没有大宗交易数据，请17:00点后再获取！")
